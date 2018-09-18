@@ -1,6 +1,6 @@
 # mip-uniqueway-timing
 
-mip-uniqueway-timing 组件说明
+mip-uniqueway-timing Uniqueway定时组件
 
 标题|内容
 ----|----
@@ -13,7 +13,7 @@ mip-uniqueway-timing 组件说明
 
 ### 基本用法
 ```html
-<mip-uniqueway-timing target="name" action="focus" wait="1000" data-id="form-lightbox">
+<mip-uniqueway-timing target="name" wait="1000">
     <p>
         <label for="name">姓名</label>
         <input type="text" name="name" id="name" />
@@ -23,14 +23,17 @@ mip-uniqueway-timing 组件说明
 
 ## 属性
 
-### {属性名}
+### target
 
-说明：{说明}
-必选项：{是|否}
-类型：{类型}
-取值范围：{取值范围}
-单位：{单位}
-默认值：{默认值}
+说明：目标
+必选项：否
+类型：string
+
+### wait
+
+说明：等待时间
+必选项：否
+类型：string
 
 ## 注意事项
 
